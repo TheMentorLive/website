@@ -1,0 +1,172 @@
+/* *************OUR SERVICES SECTION************ */
+
+.service-heading{
+    /* font-family: "Montserrat"; */
+    font-weight: 400;
+    margin: 0;
+    color: rgba(79,79,79,0.75);
+    font-size: 35;
+    line-height: 1.3;
+}
+
+hr.service-hr{
+    margin-left: 45%;
+    margin-right: 45%;
+    border-top: 1px solid black;
+    margin-bottom: 50px;
+}
+
+.service-card{
+    border-radius: 10px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.service-img{
+    margin-top: 15px;
+    border: 8px solid #f2f3f3;
+    border-radius: 500px;
+    height: 100px;
+    width: 180px;
+    max-width: 100%;
+    display: inline-block;
+    z-index: 1;
+    overflow: hidden;
+    position: relative;
+    vertical-align: middle;
+    line-height: 1;
+}
+
+.service-img img{
+    border-style: none;
+    vertical-align: top;
+    max-width: 100%;
+    height: auto;
+}
+
+.service-card-head{
+    margin-bottom: 90px;
+    font-size: 20px;
+    line-height: 1.2px;
+    letter-spacing: 0.7px;
+}
+
+.service-card-text{
+    margin: 0;
+    font-size: 13px;
+    line-height: 1.5em;
+    color: #5e5e5e;
+    margin-bottom: 25px;
+}
+
+hr.card-body-hr{
+    border-top: 4px solid #111;
+    margin-left: 35%;
+    margin-right: 35%;
+}
+
+.btn-card-service{
+    padding: 10px 22px;
+    background-color: #4d39e9;
+    font-size: 13px;
+    color: #fff;
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-style: normal;
+    border-width: 0px;
+    border-style: solid;
+    border-radius: 15px;
+    text-transform: none;
+    transition: all .2s;
+}
+
+.nameColor{
+    font-weight: bold;
+    color: #4d39e9;
+}
+
+/* *************OUR VISION SECTION************ */
+
+.vision-data{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+.vision-data p{
+    width: 90%;
+    font-size: 18px;
+    color: #5e5e5e;
+}
+.counter{
+    font-size: 60px;
+    color: #4d39e9;
+}
+.vision-head{
+    font-size: 20px;
+    color: #5e5e5e;
+}
+
+/* ************ CAREERS PAGE********** */
+
+.subTopicHighlight{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90px;
+    width: 100%;
+    background-color: #4d39e9;
+    color: #ecefef;
+    margin-bottom: 100px;
+}
+.subTopicHighlight h2{
+    text-align: center;
+    font-size: 40px;
+    color: #ffffff;
+    font-family: "Poppins";
+    font-weight: 600;
+}
+
+.career-card{
+    height: 100%;
+    box-shadow: 1px 1px 28px -10px #c9c9c9;
+}
+.career-icon{
+    border-radius: 50%;
+    background-clip: inherit;
+    border-width: 1px;
+    background-color: #c9c9c9;
+    color: #111;
+    text-align: center;
+    margin-top: 18px;
+    height: 55px;
+    width: 55px;
+    font-size: 30px;
+}
+.career-icon:hover{
+    border:2px solid #4d39e9;
+}
+.career-head{
+    font-size: 18px;
+    font-weight: bolder;
+    text-align: center;
+    color: rgba(94,94,94,0.93);
+    font-family: Karla, Arial, Helvetica, sans-serif;
+    letter-spacing: 0px;
+    font-style: normal;
+}
+.btn-career{
+    margin-top: 18px;
+    padding: 8px 25px;
+    font-size: 14px;
+    border-radius: 20px;
+    border-width: 0px;
+    background-color: #ecefef;
+    color: #4d39e9;
+    font-weight: 600;
+    transition: all .4s;
+    text-decoration: none;
+}
+.btn-career:hover{
+    background-color: #4d39e9;
+    color: #fff;
+}
