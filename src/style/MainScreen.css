@@ -1,172 +1,221 @@
-/* *************OUR SERVICES SECTION************ */
+/* ************ NAVBAR ************* */
 
-.service-heading{
-    /* font-family: "Montserrat"; */
-    font-weight: 400;
-    margin: 0;
-    color: rgba(79,79,79,0.75);
-    font-size: 35;
-    line-height: 1.3;
+.img-navbar-logo {
+  height: 60px;
+  width: 140px;
 }
 
-hr.service-hr{
-    margin-left: 45%;
-    margin-right: 45%;
-    border-top: 1px solid black;
-    margin-bottom: 50px;
+.navbar-custom {
+  font-size: 16px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  position: fixed;
+  background-color: #fff;
 }
 
-.service-card{
-    border-radius: 10px;
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+.nav-item-custom {
+  height: 22px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #2e2455;
 }
 
-.service-img{
-    margin-top: 15px;
-    border: 8px solid #f2f3f3;
-    border-radius: 500px;
-    height: 100px;
-    width: 180px;
-    max-width: 100%;
-    display: inline-block;
-    z-index: 1;
-    overflow: hidden;
-    position: relative;
-    vertical-align: middle;
-    line-height: 1;
+.sign-in-option {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #2e2455;
+  text-decoration: none;
+  padding: 0 10px;
 }
 
-.service-img img{
-    border-style: none;
-    vertical-align: top;
-    max-width: 100%;
-    height: auto;
+.register-option {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #eb7854;
+  text-decoration: none;
+  padding: 0 10px;
 }
 
-.service-card-head{
-    margin-bottom: 90px;
-    font-size: 20px;
-    line-height: 1.2px;
-    letter-spacing: 0.7px;
+/* **********LANDING PAGE ************* */
+/* .box {
+  position: absolute;
+  margin-top: 9vh;
+  top: 27%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+}
+.box-right {
+  position: absolute;
+  margin-top: 9vh;
+  top: 27%;
+  right: 10%;
+  transform: translate(-50%, -50%);
+}
+button {
+  padding: 10px 20px;
+  margin-left: 50px;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 50px;
+  cursor: auto;
+  transition: all 03s ease 0s;
+}
+button:hover {
+  background-color: #5e17ea;
+  border-radius: 50px;
+} */
+
+.heading-landing {
+  width: 663px;
+  height: 234px;
+  margin-top: 80px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 96px;
+  line-height: 117px;
+  text-align: center;
+  font-feature-settings: "case" on;
+  color: #2e2455;
 }
 
-.service-card-text{
-    margin: 0;
-    font-size: 13px;
-    line-height: 1.5em;
-    color: #5e5e5e;
-    margin-bottom: 25px;
+.text-heading {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.2px;
+  color: #2e2455;
+}
+.button-landing-left {
+  background: linear-gradient(360deg, #7a4ae1 -9.52%, #a076fa 100%);
+  box-shadow: 0px 8px 16px rgba(130, 83, 230, 0.5);
+  border-radius: 50px;
+  padding: 15px 30px;
+  margin-right: 40px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 18px;
+  color: #ffffff;
+  text-decoration: none;
 }
 
-hr.card-body-hr{
-    border-top: 4px solid #111;
-    margin-left: 35%;
-    margin-right: 35%;
+.button-landing-right {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+  text-decoration-line: underline;
+  color: #2e2455;
 }
 
-.btn-card-service{
-    padding: 10px 22px;
-    background-color: #4d39e9;
-    font-size: 13px;
-    color: #fff;
-    margin-bottom: 20px;
-    font-weight: 600;
-    font-style: normal;
-    border-width: 0px;
-    border-style: solid;
-    border-radius: 15px;
-    text-transform: none;
-    transition: all .2s;
+.button-landing-left:hover {
+  color: #fff;
+}
+.button-landing-right:hover {
+  color: #2e2455;
 }
 
-.nameColor{
-    font-weight: bold;
-    color: #4d39e9;
+hr.landing {
+  height: 5px;
+  margin-top: 50px;
+  margin-left: 5%;
+  margin-right: 5%;
+  border: 2px solid #c8c8c8;
+}
+.img-logo-landing {
+  height: 50px;
+  max-width: 130px;
 }
 
-/* *************OUR VISION SECTION************ */
+/* **********OUR SERVICES************ */
 
-.vision-data{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 40px;
-}
-.vision-data p{
-    width: 90%;
-    font-size: 18px;
-    color: #5e5e5e;
-}
-.counter{
-    font-size: 60px;
-    color: #4d39e9;
-}
-.vision-head{
-    font-size: 20px;
-    color: #5e5e5e;
+.ourBenefits-outter-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 350px;
+  background-color: #31235C;;
+  color: #fff;
+  border-radius: 55px;
+  text-align: center;
+  margin-bottom: 70px;
 }
 
-/* ************ CAREERS PAGE********** */
-
-.subTopicHighlight{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 90px;
-    width: 100%;
-    background-color: #4d39e9;
-    color: #ecefef;
-    margin-bottom: 100px;
-}
-.subTopicHighlight h2{
-    text-align: center;
-    font-size: 40px;
-    color: #ffffff;
-    font-family: "Poppins";
-    font-weight: 600;
+.title-left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 38px;
+  font-weight: 600;
+  width: 200px;
+  line-height: 40px;
+  letter-spacing: 1.5px;
+  text-align: left;
 }
 
-.career-card{
-    height: 100%;
-    box-shadow: 1px 1px 28px -10px #c9c9c9;
+.card-col {
+  width: 190px;
+  top: 0;
+  height: 200px;
 }
-.career-icon{
-    border-radius: 50%;
-    background-clip: inherit;
-    border-width: 1px;
-    background-color: #c9c9c9;
-    color: #111;
-    text-align: center;
-    margin-top: 18px;
-    height: 55px;
-    width: 55px;
-    font-size: 30px;
+
+.card-col span {
+  font-size: 22px;
 }
-.career-icon:hover{
-    border:2px solid #4d39e9;
+.card-image {
+  height: 120px;
+  width: 130px;
+  border-radius: 30px;
+  background-color: #fff;
+  margin-bottom: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 30px;
 }
-.career-head{
-    font-size: 18px;
-    font-weight: bolder;
-    text-align: center;
-    color: rgba(94,94,94,0.93);
-    font-family: Karla, Arial, Helvetica, sans-serif;
-    letter-spacing: 0px;
-    font-style: normal;
+
+.card-col img {
+  height: 75px;
+  width: 75px;
+  background-color: #fff;
 }
-.btn-career{
-    margin-top: 18px;
-    padding: 8px 25px;
-    font-size: 14px;
-    border-radius: 20px;
-    border-width: 0px;
-    background-color: #ecefef;
-    color: #4d39e9;
-    font-weight: 600;
-    transition: all .4s;
-    text-decoration: none;
+
+.card-col a {
+  font-size: 16px;
+  text-decoration: none;
 }
-.btn-career:hover{
-    background-color: #4d39e9;
-    color: #fff;
+.column-card {
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.column-card-hover {
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+}
+
+.column-card-hover:hover {
+  background: linear-gradient(180deg, #6d35e1 0%, #8d66e1 100%);
+  box-shadow: 0px 2px 3px rgba(18, 192, 231, 0.76);
 }
