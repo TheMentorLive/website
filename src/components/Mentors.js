@@ -1,5 +1,4 @@
 import { Col, Container, Row } from "react-bootstrap";
-import "../style/MainScreen.css";
 
 const Mentors = () => {
   return (

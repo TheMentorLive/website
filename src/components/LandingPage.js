@@ -1,5 +1,4 @@
 import { Container, Row, Col } from "react-bootstrap";
-import "../style/MainScreen.css";
 
 const Landing = () => {
   return (

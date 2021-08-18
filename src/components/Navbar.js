@@ -1,5 +1,4 @@
 import { Navbar, Container,Nav } from "react-bootstrap";
-import "../style/MainScreen.css";
 import {Link} from 'react-router-dom';
 
 const NavbarTop = () => {
