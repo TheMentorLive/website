@@ -47,34 +47,6 @@
 }
 
 /* **********LANDING PAGE ************* */
-/* .box {
-  position: absolute;
-  margin-top: 9vh;
-  top: 27%;
-  left: 25%;
-  transform: translate(-50%, -50%);
-}
-.box-right {
-  position: absolute;
-  margin-top: 9vh;
-  top: 27%;
-  right: 10%;
-  transform: translate(-50%, -50%);
-}
-button {
-  padding: 10px 20px;
-  margin-left: 50px;
-  background-color: #ffffff;
-  border: none;
-  border-radius: 50px;
-  cursor: auto;
-  transition: all 03s ease 0s;
-}
-button:hover {
-  background-color: #5e17ea;
-  border-radius: 50px;
-} */
-
 .heading-landing {
   width: 663px;
   height: 234px;
@@ -150,7 +122,7 @@ hr.landing {
   align-items: center;
   justify-content: center;
   height: 350px;
-  background-color: #31235C;;
+  background-color: #31235c;
   color: #fff;
   border-radius: 55px;
   text-align: center;
@@ -218,4 +190,72 @@ hr.landing {
 .column-card-hover:hover {
   background: linear-gradient(180deg, #6d35e1 0%, #8d66e1 100%);
   box-shadow: 0px 2px 3px rgba(18, 192, 231, 0.76);
+}
+
+/* ***** Video Call / Mentors ***** */
+.section6-image {
+  position: absolute;
+  width: 980.64px;
+  height: 564.18px;
+  /* left: -292.68px; */
+  /* top: 4002.4px; */
+  /* background: url(/images/Mentors1.png); */
+  border-radius: 30px;
+}
+
+.section6-right-sub1 {
+  height: 29px;
+  width: 92px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+
+  /* identical to box height */
+
+  color: #898989;
+}
+
+.section6-right-sub2 {
+  /* position: absolute;
+  left: 792.32px;
+  top: 4176.49px; */
+  height: 108px;
+  width: 545px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 44px;
+  line-height: 54px;
+  font-feature-settings: "case" on;
+
+  color: #2e2455;
+}
+
+.section6-right-sub3 {
+  position: absolute;
+  width: 549px;
+  height: 52px;
+
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 26px;
+
+  color: #898989;
+}
+
+.section6-btn {
+  /* position: absolute;
+  right: 30.2%;
+  top: 4405.04px; */
+  height: 57px;
+  left: 54.87%;
+
+  background: linear-gradient(360deg, #7a4ae1 -9.52%, #a076fa 100%);
+  box-shadow: 0px 8px 16px rgba(130, 83, 230, 0.5);
+  border-radius: 50px;
 }

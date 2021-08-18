@@ -1,6 +1,7 @@
 import Landing from "../components/LandingPage";
+import Mentors from "../components/Mentors";
 import NavbarTop from "../components/Navbar";
-import Services from "../components/ourServices"
+import Services from "../components/ourServices";
 
 
 const MainScreen = () =>{
@@ -9,6 +10,7 @@ const MainScreen = () =>{
             <NavbarTop/>
             <Landing/>
             <Services/>
+            <Mentors />
         </div>
     );
 }
