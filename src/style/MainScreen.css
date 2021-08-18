@@ -47,6 +47,7 @@
 }
 
 /* **********LANDING PAGE ************* */
+
 .heading-landing {
   width: 663px;
   height: 234px;
@@ -192,17 +193,29 @@ hr.landing {
   box-shadow: 0px 2px 3px rgba(18, 192, 231, 0.76);
 }
 
+/* **********THE MENTOR CALL*************** */
+
 /* ***** Video Call / Mentors ***** */
+.section6 {
+  margin-bottom: 90px;
+  margin-top: 150px;
+}
+
 .section6-image {
-  position: absolute;
-  width: 980.64px;
-  height: 564.18px;
+  margin-left: -20px;
+  width: 970px;
+  height: 570px;
+  background: url(../Assests/Mentors.png) no-repeat;
   border-radius: 30px;
 }
 
+.col-mentor-custom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .section6-right-sub1 {
-  height: 29px;
-  width: 92px;
   font-family: Lato;
   font-style: normal;
   font-weight: bold;
@@ -234,39 +247,74 @@ hr.landing {
   color: #898989;
 }
 
-.section6-btn1 {
-  background: linear-gradient(360deg, #7a4ae1 -9.52%, #a076fa 100%);
-  box-shadow: 0px 8px 16px rgba(130, 83, 230, 0.5);
-  border-radius: 50px;
-  padding: 15px 30px;
-  margin-right: 40px;
+/* ********** SUCCESS STORIES ************ */
+
+.section7 {
+  margin-bottom: 70px;
+}
+
+.section7-subHead {
+  width: 152px;
   font-family: Lato;
   font-style: normal;
   font-weight: bold;
-  font-size: 18px;
-  line-height: 18px;
-  color: #ffffff;
-  text-decoration: none;
-}
-.section6-btn1-arrow {
-  right: 32.46%;
-  top: 4441.42px;
-
-  border: 2px solid #875806;
-  box-sizing: border-box;
-  transform: matrix(0.76, -0.66, 0.65, 0.76, 0, 0);
+  font-size: 24px;
+  line-height: 29px;
+  color: #898989;
 }
 
-.section6-btn2 {
-  position: absolute;
-  width: 109px;
-  height: 26px;
+.section7-text-left {
+  margin-left: 90px;
+}
+
+.section7-heading {
+  width: 495px;
+  height: 162px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 44px;
+  line-height: 54px;
+  font-feature-settings: "case" on;
+  color: #2e2455;
+}
+
+.sec-per {
+  color: #eb7854;
+}
+.section7-desc {
+  width: 549px;
+  height: 52px;
   font-family: Lato;
   font-style: normal;
   font-weight: bold;
   font-size: 22px;
   line-height: 26px;
-  text-decoration-line: underline;
-
-  color: #2e2455;
+  color: #898989;
+}
+.slider-col {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.carousel-slider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 500px;
+}
+.carousel-slider div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(103.69deg, #e6efee 3.76%, #e2e9df 93.56%);
+  border-radius: 20px;
+}
+.carousel-slider div img {
+  cursor: pointer;
+  display: block;
+  position: relative;
+  padding: 4px;
+  height: 100%;
+  width: 100%;
 }

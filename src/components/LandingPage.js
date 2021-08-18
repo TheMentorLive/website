@@ -12,12 +12,12 @@ const Landing = () => {
           <img src="/images/landing-left.png" alt="Landing-Page-Left" />
         </Col>
         <Col>
-          <h1 className="heading-landing">Make Your Life Better</h1>
+          <h1 className="heading-landing font-weight-bold">Make your future better</h1>
           <p className="text-md-center text-heading">
             We connect you to industry professionals, for your career problems
           </p>
           <br />
-          <a href="#home" className="section6-btn1">
+          <a href="#home" className="button-landing-left">
             Get-Started
           </a>
           <a href="#home" className="button-landing-right">
@@ -62,5 +62,5 @@ const Landing = () => {
     </Container>
   );
 };
-  
+
 export default Landing;

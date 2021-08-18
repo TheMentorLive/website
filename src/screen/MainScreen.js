@@ -1,16 +1,16 @@
 import Landing from "../components/LandingPage";
 import Mentors from "../components/Mentors";
-import NavbarTop from "../components/Navbar";
-import Services from "../components/ourServices";
+import Services from "../components/ourServices"
+import SuccessStories from "../components/SuccessStories";
 
 
 const MainScreen = () =>{
     return(
         <div>   
-            <NavbarTop/>
             <Landing/>
             <Services/>
-            <Mentors />
+            <Mentors/>
+            <SuccessStories/>
         </div>
     );
 }

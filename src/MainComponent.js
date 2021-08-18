@@ -1,10 +1,18 @@
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import NavbarTop from './components/Navbar';
 import MainScreen from "./screen/MainScreen"
-
 
 const MainComponent = () =>{
     return(
         <div>
-            <MainScreen/>
+            <Router>
+                <NavbarTop/>
+                <Switch>
+                    <Route exact path="/">
+                        <MainScreen/>
+                    </Route>
+                </Switch>
+            </Router>
         </div>
     );
 }
