@@ -17,7 +17,7 @@ const Landing = () => {
             We connect you to industry professionals, for your career problems
           </p>
           <br />
-          <a href="#home" className="button-landing-left">
+          <a href="#home" className="section6-btn1">
             Get-Started
           </a>
           <a href="#home" className="button-landing-right">
