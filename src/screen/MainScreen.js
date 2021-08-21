@@ -5,6 +5,7 @@ import Mentorship from '../components/Mentorship';
 import Services from "../components/ourServices"
 import SuccessStories from "../components/SuccessStories";
 import "../style/MainScreen.css";
+import Subscription from "../components/Subscription";
 
 
 const MainScreen = () =>{
@@ -16,6 +17,7 @@ const MainScreen = () =>{
             <Mentorship/>
             <Mentors/>
             <SuccessStories/>
+            <Subscription/>
         </div>
     );
 }

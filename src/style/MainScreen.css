@@ -454,12 +454,12 @@ hr.landing {
   color: #898989;
 }
 
-.img-section4{
+.img-section4 {
   height: 450px;
   width: 450px;
   margin-left: 50px;
 }
-.col-sec4{
+.col-sec4 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -591,4 +591,49 @@ hr.landing {
   width: 100%;
 }
 
-/* Comment this is good */
+/********Section 8 ********/
+.section8-heading {
+  font-family: "Roboto", sans-serif;
+  padding: 10px;
+  margin-top: 20px;
+  font-size: 24px;
+  color: #adad85;
+  text-align: center;
+  line-height: normal;
+}
+
+.section8-sub-heading {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  font-size: 44px;
+  color: #330066;
+}
+
+.section8-card-position {
+  align-content: center;
+  border: #000;
+}
+
+.section8-card-heading {
+  height: 26px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 26px;
+  letter-spacing: 0.05em;
+
+  color: #2e2455;
+}
+
+.section8-card-content {
+  width: 156px;
+  height: 22px;
+  padding: 15px;
+  font-family: Lato, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  color: #2e2455;
+}
