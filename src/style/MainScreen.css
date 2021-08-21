@@ -666,3 +666,48 @@ hr.landing {
   height: 110px;
   width: 110px;
 }
+
+
+.button-subscription-left {
+  background: linear-gradient(360deg, #7a4ae1 -9.52%, #a076fa 100%);
+  box-shadow: 0px 8px 16px rgba(130, 83, 230, 0.5);
+  border-radius: 50px;
+  padding: 10px 20px;
+  margin-right: 30px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 18px;
+  color: #ffffff;
+  text-decoration: none;
+}
+/* .arrow-button{
+  background-color: #eb7854;
+  border-radius: 50%;
+  font-size: 20px;
+  text-align: center;
+  margin-left: 10px;
+}
+.arrow{
+  height: 15px;
+} */
+
+.button-subscription-right {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  text-decoration-line: underline;
+  color: #2e2455;
+  margin-top: 10px;
+}
+
+.button-landing-left:hover {
+  color: #fff;
+}
+.button-landing-right:hover {
+  color: #2e2455;
+}

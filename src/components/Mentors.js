@@ -1,4 +1,6 @@
 import { Col, Container, Row } from "react-bootstrap";
+import { Link } from "react-router-dom";
+import { BsArrowUpRight } from "react-icons/bs";
 
 const Mentors = () => {
   return (
@@ -17,6 +19,17 @@ const Mentors = () => {
               subscribe your our platform.
             </span>
             <br />
+            <div style={{ marginTop: "40px" }}>
+              <Link to="/" className="button-landing-left">
+                Book now
+                <span className="arrow-button">
+                  <BsArrowUpRight className="arrow" />
+                </span>
+              </Link>
+              <Link href="#home" className="button-landing-right">
+                Read More
+              </Link>
+            </div>
           </div>
         </Col>
       </Row>

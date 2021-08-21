@@ -2,6 +2,8 @@ import { Container, Row, Col } from "react-bootstrap";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
+import { Link } from "react-router-dom";
+import { BsArrowUpRight } from "react-icons/bs";
 
 const SuccessStories = () => {
   const settings = {
@@ -11,7 +13,7 @@ const SuccessStories = () => {
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
-    dots:true
+    dots: true,
   };
 
   return (
@@ -28,18 +30,29 @@ const SuccessStories = () => {
               This is the course process you will go through if you blah
               subscribe your our platform.
             </p>
+            <div style={{ marginTop: "40px" }}>
+              <Link to="/" className="button-landing-left">
+                Browse Classes
+                <span className="arrow-button">
+                  <BsArrowUpRight className="arrow" />
+                </span>
+              </Link>
+              <Link href="#home" className="button-landing-right">
+                Read More
+              </Link>
+            </div>
           </div>
         </Col>
         <Col className="slider-col">
           <Slider {...settings} className="carousel-slider">
             <div className="carousel-data">
-                <img src="/images/stories1.png" alt="story 1"/>
+              <img src="/images/stories1.png" alt="story 1" />
             </div>
             <div className="carousel-data">
-                <img src="/images/stories1.png" alt="story 1"/>
+              <img src="/images/stories1.png" alt="story 1" />
             </div>
             <div className="carousel-data">
-                <img src="/images/stories1.png" alt="story 1"/>
+              <img src="/images/stories1.png" alt="story 1" />
             </div>
           </Slider>
         </Col>

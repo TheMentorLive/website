@@ -1,6 +1,8 @@
 import { Row, Container } from "react-bootstrap";
 import { IoMdCheckboxOutline } from "react-icons/io";
 import { MdClose } from 'react-icons/md';
+import { Link } from "react-router-dom";
+
 
 const Subscription = () => {
   let iconStyles = { color: "blue", fontSize: "1.5rem" };
@@ -35,7 +37,15 @@ const Subscription = () => {
             <span>Video call with mentor</span>
             <br />
             <MdClose style={iconStylesRed} />
-            <span>Group consultation</span>
+            <span>Group consultation</span><br/>
+            <div style={{ marginTop: "40px",display:'flex',flexDirection:'row',justifyContent:'center', alignItems:'center' }}>
+              <Link to="/" className="button-subscription-left">
+                Join Now
+              </Link>
+              <p className="button-subscription-right">
+                $200/Month
+              </p>
+            </div>
           </div>
         </div>
 
@@ -63,6 +73,14 @@ const Subscription = () => {
             <IoMdCheckboxOutline style={iconStyles} />
             <span>Group consultation </span>
             <br />
+            <div style={{ marginTop: "40px",display:'flex',flexDirection:'row',justifyContent:'center', alignItems:'center' }}>
+              <Link to="/" className="button-subscription-left">
+                Join Now
+              </Link>
+              <p className="button-subscription-right">
+                $800/Month
+              </p>
+            </div>
           </div>
         </div>
       </Row>
