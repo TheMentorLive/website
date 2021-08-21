@@ -71,6 +71,7 @@
   letter-spacing: 0.2px;
   color: #2e2455;
 }
+
 .button-landing-left {
   background: linear-gradient(360deg, #7a4ae1 -9.52%, #a076fa 100%);
   box-shadow: 0px 8px 16px rgba(130, 83, 230, 0.5);
@@ -84,6 +85,16 @@
   line-height: 18px;
   color: #ffffff;
   text-decoration: none;
+}
+.arrow-button{
+  background-color: #eb7854;
+  border-radius: 50%;
+  font-size: 20px;
+  text-align: center;
+  margin-left: 10px;
+}
+.arrow{
+  height: 15px;
 }
 
 .button-landing-right {
@@ -607,11 +618,7 @@ hr.landing {
   text-align: center;
   font-size: 44px;
   color: #330066;
-}
-
-.section8-card-position {
-  align-content: center;
-  border: #000;
+  margin-bottom: 60px;
 }
 
 .section8-card-heading {
@@ -622,11 +629,17 @@ hr.landing {
   font-size: 22px;
   line-height: 26px;
   letter-spacing: 0.05em;
-
   color: #2e2455;
+  padding: 5px;
 }
 
-.section8-card-content {
+.section8-card-content{
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: 20px;
+}
+
+.section8-card-content span{
   width: 156px;
   height: 22px;
   padding: 15px;
@@ -634,6 +647,22 @@ hr.landing {
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
-  line-height: 22px;
+  line-height: 35px;
   color: #2e2455;
+}
+
+.sec8-card-custom {
+  background: #ffffff;
+  box-shadow: 0px 0px 100px rgba(44, 12, 115, 0.2);
+  border-radius: 20px;
+  margin: 30px 30px;
+}
+
+.section8-card-img{
+  margin-top: 20px;
+}
+
+.section8-card-img img{
+  height: 110px;
+  width: 110px;
 }

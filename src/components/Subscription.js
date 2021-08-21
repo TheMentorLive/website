@@ -1,61 +1,72 @@
-import { Row, Col, Container } from "react-bootstrap";
-import { AiOutlineCheckSquare, AiOutlineClose } from "react-icons/ai";
+import { Row, Container } from "react-bootstrap";
+import { IoMdCheckboxOutline } from "react-icons/io";
+import { MdClose } from 'react-icons/md';
 
-function Subscription() {
+const Subscription = () => {
+  let iconStyles = { color: "blue", fontSize: "1.5rem" };
+  let iconStylesRed = { color: "red", fontSize: "1.5rem" };
+
   return (
-    <Container>
+    <Container style={{ marginBottom: "100px" }}>
       <p className="section8-heading">Subscribe</p>
       <b>
-        <p className="section8-sub-heading">Join Us and improve </p>
+        <p className="section8-sub-heading">Join Us and improve<br/>your skills </p>
       </b>
-      <br></br>
-      <div>
-        <Row md={2}>
-          <Col>
-            <img src="images/Image_blue.png" alt="Gallery1" />
+      <Row md={5} className="d-flex justify-content-center">
+        <div className="sec8-card-custom" style={{ width: "290px" }}>
+          <div className="section8-card-img">
+            <img
+              src="images/Image_blue.png"
+              alt="Gallery1"
+            />
             <span className="section8-card-heading">Basic</span>
-            <div>
-              <AiOutlineCheckSquare />
-              <span className="section8-card-content">30 courses + bonus</span><br />
-              <AiOutlineCheckSquare />
-              <span className="section8-card-content">Life time access</span><br />
-              <AiOutlineCheckSquare />
-              <span className="section8-card-content">Certificate</span><br />
-              <AiOutlineClose />
-              <span className="section8-card-content">
-                Video call with mentor
-              </span><br />
-              <AiOutlineClose />
-              <span className="section8-card-content">Group consultation</span>
-              <br />
-            </div>
-          </Col>
-          <Col>
-            <img src="images/Image_White.png" alt="Gallery1" />
+          </div>
+          <div className="section8-card-content">
+            <IoMdCheckboxOutline style={iconStyles} />
+            <span>30 courses + bonus</span>
+            <br />
+            <IoMdCheckboxOutline style={iconStyles} />
+            <span>Life time access</span>
+            <br />
+            <IoMdCheckboxOutline style={iconStyles} />
+            <span>Certificate</span>
+            <br />
+            <MdClose style={iconStylesRed} />
+            <span>Video call with mentor</span>
+            <br />
+            <MdClose style={iconStylesRed} />
+            <span>Group consultation</span>
+          </div>
+        </div>
+
+        <div className="sec8-card-custom" style={{ width: "290px" }}>
+          <div className="section8-card-img">
+            <img
+              src="images/Image_White.png"
+              alt="Gallery1"
+            />
             <span className="section8-card-heading">Preminum</span>
-            <div>
-              <AiOutlineCheckSquare />
-              <span className="section8-card-content">30 courses + bonus </span>
-              <br />
-              <AiOutlineCheckSquare />
-              <span className="section8-card-content">Life time access </span>
-              <br />
-              <AiOutlineCheckSquare />
-              <span className="section8-card-content">Certificate </span>
-              <br />
-              <AiOutlineCheckSquare />
-              <span className="section8-card-content">
-                Video call with mentor{" "}
-              </span>
-              <br />
-              <AiOutlineCheckSquare />
-              <span className="section8-card-content">Group consultation </span>
-              <br />
-            </div>
-          </Col>
-        </Row>
-      </div>
+          </div>
+          <div className="section8-card-content">
+            <IoMdCheckboxOutline style={iconStyles} />
+            <span>30 courses + bonus </span>
+            <br />
+            <IoMdCheckboxOutline style={iconStyles} />
+            <span>Life time access </span>
+            <br />
+            <IoMdCheckboxOutline style={iconStyles} />
+            <span>Certificate </span>
+            <br />
+            <IoMdCheckboxOutline style={iconStyles} />
+            <span>Video call with mentor</span>
+            <br />
+            <IoMdCheckboxOutline style={iconStyles} />
+            <span>Group consultation </span>
+            <br />
+          </div>
+        </div>
+      </Row>
     </Container>
   );
-}
+};
 export default Subscription;

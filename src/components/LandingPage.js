@@ -1,4 +1,6 @@
 import { Container, Row, Col } from "react-bootstrap";
+import { BsArrowUpRight } from 'react-icons/bs';
+import { Link } from "react-router-dom";
 
 const Landing = () => {
   return (
@@ -16,12 +18,13 @@ const Landing = () => {
             We connect you to industry professionals, for your career problems
           </p>
           <br />
-          <a href="#home" className="button-landing-left">
+          <Link to="/" className="button-landing-left">
             Get-Started
-          </a>
-          <a href="#home" className="button-landing-right">
+            <span className="arrow-button"><BsArrowUpRight className="arrow"/></span>
+          </Link>
+          <Link href="#home" className="button-landing-right">
             Free 1:1 Consultancy
-          </a>
+          </Link>
           <hr className="landing" />
           <Row>
             <Col>
