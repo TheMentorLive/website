@@ -86,14 +86,14 @@
   color: #ffffff;
   text-decoration: none;
 }
-.arrow-button{
+.arrow-button {
   background-color: #eb7854;
   border-radius: 50%;
   font-size: 20px;
   text-align: center;
   margin-left: 10px;
 }
-.arrow{
+.arrow {
   height: 15px;
 }
 
@@ -205,230 +205,90 @@ hr.landing {
 }
 
 /* *************OUR PROCESS *************** */
-
 .process-container {
-  overflow-x: hidden;
-  height: 600px;
-  margin-bottom: 250px;
-  overflow-y: hidden;
-  right: 1000;
-}
-#rectangle {
-  margin-top: 180px;
-}
-.right {
-  width: 100%;
-  height: 100%;
-}
-.right > img {
-  position: absolute;
-  margin-top: 25%;
-  left: 51%;
-}
-#number1 {
-  position: absolute;
-  margin-top: -199px;
-  left: 670px;
-}
-#number2 {
-  position: absolute;
-  margin-top: -199px;
-  left: 1010px;
-}
-#number3 {
-  position: absolute;
-  margin-top: 180px;
-  left: 670px;
-}
-#number4 {
-  position: absolute;
-  margin-top: 180px;
-  left: 1010px;
-}
-#sub-num1 {
-  position: absolute;
-  margin-top: 20px;
-  left: 880px;
-}
-#sub-num2 {
-  position: absolute;
-  margin-top: 32px;
-  left: 896px;
-}
-#sub-num3 {
-  position: absolute;
-  margin-top: 81px;
-  left: 932px;
-}
-#sub-num4 {
-  position: absolute;
-  margin-top: 200px;
-  left: 900px;
-}
-#sub-num5 {
-  position: absolute;
-  margin-top: 270px;
-  left: 900px;
-}
-#sub-num6 {
-  position: absolute;
-  margin-top: 108px;
-  left: 960px;
-}
-#sub-num7 {
-  position: absolute;
-  margin-top: 20px;
-  left: 1225px;
-}
-#sub-num8 {
-  position: absolute;
-  margin-top: 33px;
-  left: 1240px;
-}
-#sub-num9 {
-  position: absolute;
-  margin-top: 90px;
-  left: 1285px;
-}
-#sub-num10 {
-  position: absolute;
-  margin-top: 200px;
-  left: 1240px;
-}
-#sub-num11 {
-  position: absolute;
-  margin-top: 268px;
-  left: 1240px;
-}
-#sub-num12 {
-  position: absolute;
-  margin-top: 400px;
-  left: 880px;
-}
-#sub-num13 {
-  position: absolute;
-  margin-top: 411px;
-  left: 896px;
-}
-#sub-num14 {
-  position: absolute;
-  margin-top: 450px;
-  left: 940px;
-}
-#sub-num15 {
-  position: absolute;
-  margin-top: 477px;
-  left: 970px;
-}
-#sub-num16 {
-  position: absolute;
-  margin-top: 570px;
-  left: 900px;
-}
-#sub-num17 {
-  position: absolute;
-  margin-top: 650px;
-  left: 900px;
-}
-#sub-num18 {
-  position: absolute;
-  margin-top: 399px;
-  left: 1220px;
-}
-#sub-num19 {
-  position: absolute;
-  margin-top: 411px;
-  left: 1235px;
-}
-#sub-num20 {
-  position: absolute;
-  margin-top: 440px;
-  left: 1265px;
-}
-#sub-num21 {
-  position: absolute;
-  margin-top: 570px;
-  left: 1240px;
-}
-#sub-num22 {
-  position: absolute;
-  margin-top: 649px;
-  left: 1240px;
-}
-#sub-num23 {
-  position: absolute;
-  margin-top: 490px;
-  left: 1300px;
-}
-#sub-num24 {
-  position: absolute;
-  margin-top: 465px;
-  left: 1335px;
+  height: 800px;
 }
 
-/*css for left part*/
+.process-head {
+  width: 131px;
+  height: 29px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  color: #898989;
+}
 
-#left-sub6 {
-  position: absolute;
-  margin-top: 470px;
-  left: 250px;
+.process-heading {
+  width: 401px;
+  height: 108px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 44px;
+  line-height: 54px;
+  font-feature-settings: "case" on;
+  color: #2e2455;
 }
-#left-sub7 {
-  position: absolute;
-  margin-top: 479px;
-  left: 260px;
+
+.process-subheading {
+  width: 503px;
+  height: 52px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 26px;
+  color: #898989;
 }
-#heading {
-  margin: 2rem;
-  padding: 4px;
-  position: absolute;
-  font-family: "Roboto", sans-serif;
-  font-size: 2rem;
-  color: #adad85;
-  margin-top: 150px;
-  left: 80px;
+.number-heading {
+  padding: 10px 16px;
+  border-radius: 50%;
+  background: #9367f2;
 }
-#sub-heading {
-  margin: 2rem;
-  padding: 4px;
-  position: absolute;
-  font-family: "Roboto", sans-serif;
-  font-size: 50px;
-  color: #6600cc;
-  margin-top: 200px;
-  left: 80px;
+.section3-card {
+  width: 253.27px;
+  height: 307.38px;
+  background: #ffffff;
+  box-shadow: 0px -2px 200px rgba(44, 12, 115, 0.2);
 }
-#content {
-  margin: 2rem;
-  padding: 4px;
-  position: absolute;
-  font-family: "Roboto", sans-serif;
-  color: #adad85;
-  margin-top: 340px;
-  left: 80px;
+
+.section3-card img {
+  height: 130px;
+  width: 110px;
+  margin-left: 55px;
+  margin-bottom: 15px;
 }
-#btn {
-  margin: 2rem;
-  padding: 4px;
-  font-size: 1rem;
-  position: absolute;
-  color: white;
-  width: 200px;
-  height: 50px;
-  border-radius: 2rem;
-  margin-top: 430px;
-  left: 80px;
-  background: linear-gradient(360deg, #7a4ae1 -9.52%, #a076fa 100%);
-  box-shadow: 0px 8px 16px rgba(130, 83, 230, 0.5);
-  border-radius: 50px;
+.section3-card-text {
+  width: 174px;
+  height: 58px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  color: #31235c;
 }
-#btn > p {
-  color: white;
-  position: absolute;
-  font-size: 1.2rem;
-  margin-top: -8px;
-  left: 29px;
+.section3-btn-text {
+  width: 72px;
+  height: 17px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  text-decoration: none;
+  text-align: center;
+  color: #8098ed;
 }
+.middle-block-back{
+  background: url(../Assests/Rectangle\ 356.png);
+}
+/* 
+.card-bg{
+  background: url('../Assests/Rectangle\ 356.png') no-repeat;
+} */
 
 /* **********THE MENTORSHIP*************** */
 .section4-subheading {
@@ -633,13 +493,13 @@ hr.landing {
   padding: 5px;
 }
 
-.section8-card-content{
+.section8-card-content {
   margin-top: 40px;
   margin-bottom: 40px;
   margin-left: 20px;
 }
 
-.section8-card-content span{
+.section8-card-content span {
   width: 156px;
   height: 22px;
   padding: 15px;
@@ -658,15 +518,14 @@ hr.landing {
   margin: 30px 30px;
 }
 
-.section8-card-img{
+.section8-card-img {
   margin-top: 20px;
 }
 
-.section8-card-img img{
+.section8-card-img img {
   height: 110px;
   width: 110px;
 }
-
 
 .button-subscription-left {
   background: linear-gradient(360deg, #7a4ae1 -9.52%, #a076fa 100%);
