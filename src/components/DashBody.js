@@ -1,5 +1,7 @@
 import { Col, Container, Row } from "react-bootstrap";
 import { AiFillCheckCircle, AiFillCloseCircle } from "react-icons/ai";
+import DashProfile from "./DashProfile";
+
 const Dashboard = () => {
   return (
     <Container>
@@ -85,25 +87,7 @@ const Dashboard = () => {
             </div>
           </Col>
         </Row>
-        <div className="section-back-card12">
-          <span className="section-back-card12-heading">Profile Completed</span>
-          <Row>
-            <Col><img src="" alt="durbin"/></Col>
-            <Col><span className="section-back-card1-subheading ">Add profile photo</span></Col>
-            <Col>button</Col>
-          </Row>
-        </div>
-        <div className="section-back-card12">
-          <spna className="section-back-card12-heading">Community</spna>
-          <Row>
-            <Col>
-              <img src="" alt="Girl1" />
-            </Col>
-            <Col>
-              <img src="" alt="Boy1" />
-            </Col>
-          </Row>
-        </div>
+        <DashProfile/>
       </div>
     </Container>
   );

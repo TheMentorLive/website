@@ -48,7 +48,7 @@
 .section-block {
   margin-top: 20px;
   height: 84px;
-  width: 235.32px;
+  width: 235px;
   background: #31235c;
   box-shadow: 4px 4px 10px rgba(18, 7, 51, 0.25);
   border-radius: 20px;
@@ -84,7 +84,8 @@
   width: 36.89px;
 }
 
-.section-back-card12 {
+.section-back-card1 {
+  width: 578px;
   margin-top: 30px;
   background: #ffffff;
   box-shadow: 0px 14px 40px rgba(44, 12, 115, 0.15);
@@ -92,6 +93,17 @@
   padding: 30px;
 }
 
+.section-back-card2 {
+  margin-top: 30px;
+  width: 314.02px;
+  background: #ffffff;
+  box-shadow: 0px 14px 40px rgba(44, 12, 115, 0.15);
+  border-radius: 20px;
+  padding: 30px;
+}
+.section-back-card2 img {
+  padding-top: 15px;
+}
 .section-back-card12-heading {
   font-family: Lato;
   font-style: normal;
@@ -106,6 +118,100 @@
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
-  line-height: 17px;
+  line-height: 30px;
   color: #31235c;
+}
+
+.section-card1-button {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 12px;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 7px 15px;
+  background: #31235c;
+  border-radius: 8px;
+  line-height: 30px;
+}
+.section-card1-button:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* ********* SIDEBAR ********** */
+
+.sidebar {
+  width: 230px;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.profile {
+  margin-left: 60px;
+  margin-bottom: 60px;
+}
+
+.profile img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+.icons {
+  margin-top: 50px;
+  text-align: center;
+  margin: 7px;
+}
+.icons .selected {
+  color: #f4f1fd;
+}
+.icons .selected .icon {
+  color: #000;
+}
+.icons span {
+  /* box-shadow: 0px 4px 20px rgba(49, 35, 92, 0.75); */
+  background: #f4f1fd;
+  border-radius: 15px;
+  font-size: 35px;
+}
+.icons span .icon {
+  height: 30px;
+  width: 45px;
+  padding-bottom: 8px;
+}
+.icons span .icon-head {
+  width: 70px;
+  height: 17px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 14px;
+  color: #31235c;
+}
+.icon-div {
+  width: 200px;
+}
+.icons .selected {
+  background: #31235c;
+  box-shadow: 0px 4px 20px rgba(49, 35, 92, 0.75);
+}
+.icons .selected .icon {
+  color: #f4f1fd;
+}
+
+.cloud-section {
+  margin-top: 50px;
+  margin-left: 60px;
+  margin-bottom: 20px;
+}
+
+.cloud-section-btn {
+  margin-left: 15px;
+  padding: 10px 15px;
+  background: #ffc145;
+  font-size: 14x;
+  border-radius: 13.617px;
 }
