@@ -1,9 +1,10 @@
+import Dashboard from '../components/DashBody';
 import '../style/DashBoard.css';
 
 const DashBoard =()=>{
     return(
         <div>
-            DashBoard Dummy
+            <Dashboard/>
         </div>
     );
 }
