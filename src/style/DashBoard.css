@@ -121,6 +121,10 @@
   line-height: 30px;
   color: #31235c;
 }
+.section-back-card1-subheading img{
+  height: 22px;
+  width: 22px;
+}
 
 .section-card1-button {
   font-family: Lato;

@@ -12,20 +12,20 @@ const DashProfile = () => {
             </span>
             <Row>
               <Col>
-                <img src="" alt="durbin" />
+                Strength-intermediate
               </Col>
               <Col>
                 <span className="section-back-card1-subheading ">
-                  Add profile photo
+                  <img src="/images/bi.png" alt="Bi"/> &nbsp; Add profile photo
                 </span><br/>
                 <span className="section-back-card1-subheading ">
-                  Add few skills
+                  <img src="/images/bi.png" alt="Bi"/> &nbsp; Add few skills
                 </span><br/>
                 <span className="section-back-card1-subheading ">
-                  Add a short bio
+                  <img src="/images/bi.png" alt="Bi"/> &nbsp; Add a short bio
                 </span><br/>
                 <span className="section-back-card1-subheading ">
-                  Add your interests
+                  <img src="/images/bi.png" alt="Bi"/>&nbsp;  Add your interests
                 </span>
               </Col>
               <Col>
