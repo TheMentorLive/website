@@ -1,9 +1,11 @@
-import '../style/ResumeBuilder.css';
+import JobsLink from "../components/JbLink";
+import "../style/ResumeBuilder.css";
 
-const ResumeBuilder = () =>{
-    return(
-        <div>sdigujhslidfhisdkhluisdgfgbfdkj.ghfsdhbgkljsfdlksjgluih
-            </div>
-    );
-}
+const ResumeBuilder = () => {
+  return (
+    <div>
+      <JobsLink />
+    </div>
+  );
+};
 export default ResumeBuilder;
