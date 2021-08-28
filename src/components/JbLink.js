@@ -4,13 +4,32 @@ import { Link } from "react-router-dom";
 const JobsLink = () => {
   return (
     <div>
-      <Container className="text-md-center">
-        <spna className="JobLink-heading">Job Links</spna> <br />
+      <Container className="text-md-center" style={{ marginTop: "100px" }}>
+        <span className="JobLink-heading">Job Links</span> <br />
         <span className="JobLink-heading-desc">
           Choose from 50+ customizable resume templates that are built to meet
           your career needs.
         </span>
         <br />
+        {/* <div className="searchbar-joblink">
+          <form class="form-inline">
+            <Row>
+              <Col>
+                <input
+                  class="form-control joblink-input"
+                  type="search"
+                  placeholder="Search"
+                  aria-label="Search"
+                />
+              </Col>
+              <Col>
+                <button class="btn btn-outline-primary" type="submit">
+                  Search
+                </button>
+              </Col>
+            </Row>
+          </form>
+        </div> */}
         <div className="JobLink-outterbox">
           <Row md={2}>
             <Col>
@@ -23,11 +42,16 @@ const JobsLink = () => {
                 <br />
                 <span className="JobLink-box-companyName">Amazon</span> <br />
                 <span className="JobLink-box-courseName">UI/UX Designer</span>
-                <br />
-                <Row>
-                  <Col className="JobLink-boc-colDetails">Internship</Col>
-                  <Col className="JobLink-boc-colDetails">2 months</Col>
-                  <Col className="JobLink-boc-colDetails">Remote</Col>
+                <Row style={{ marginTop: "20px" }}>
+                  <Col>
+                    <span className="JobLink-boc-colDetails">Internship</span>
+                  </Col>
+                  <Col>
+                    <span className="JobLink-boc-colDetails">2 Months</span>
+                  </Col>
+                  <Col>
+                    <span className="JobLink-boc-colDetails">Remote</span>
+                  </Col>
                 </Row>
                 <p className="JobLink-box-content">
                   We value great design and prioritize it across every single
@@ -50,10 +74,16 @@ const JobsLink = () => {
                 <span className="JobLink-box-companyName">Amazon</span> <br />
                 <span className="JobLink-box-courseName">UI/UX Designer</span>
                 <br />
-                <Row>
-                  <Col className="JobLink-boc-colDetails">Internship</Col>
-                  <Col className="JobLink-boc-colDetails">2 months</Col>
-                  <Col className="JobLink-boc-colDetails">Remote</Col>
+                <Row style={{ marginTop: "20px" }}>
+                  <Col>
+                    <span className="JobLink-boc-colDetails">Internship</span>
+                  </Col>
+                  <Col>
+                    <span className="JobLink-boc-colDetails">2 Months</span>
+                  </Col>
+                  <Col>
+                    <span className="JobLink-boc-colDetails">Remote</span>
+                  </Col>
                 </Row>
                 <p className="JobLink-box-content">
                   We value great design and prioritize it across every single
@@ -78,10 +108,16 @@ const JobsLink = () => {
                 <span className="JobLink-box-companyName">Amazon</span> <br />
                 <span className="JobLink-box-courseName">UI/UX Designer</span>
                 <br />
-                <Row>
-                  <Col className="JobLink-boc-colDetails">Internship</Col>
-                  <Col className="JobLink-boc-colDetails">2 months</Col>
-                  <Col className="JobLink-boc-colDetails">Remote</Col>
+                <Row style={{ marginTop: "20px" }}>
+                  <Col>
+                    <span className="JobLink-boc-colDetails">Internship</span>
+                  </Col>
+                  <Col>
+                    <span className="JobLink-boc-colDetails">2 Months</span>
+                  </Col>
+                  <Col>
+                    <span className="JobLink-boc-colDetails">Remote</span>
+                  </Col>
                 </Row>
                 <p className="JobLink-box-content">
                   We value great design and prioritize it across every single
@@ -102,14 +138,18 @@ const JobsLink = () => {
                 />
                 <br />
                 <span className="JobLink-box-companyName">Amazon</span> <br />
-                <span className="JobLink-box-courseName">
-                  UI/UX Designer <br />
-                </span>
+                <span className="JobLink-box-courseName">UI/UX Designer</span>
                 <br />
-                <Row>
-                  <Col className="JobLink-boc-colDetails">Internship</Col>
-                  <Col className="JobLink-boc-colDetails">2 months</Col>
-                  <Col className="JobLink-boc-colDetails">Remote</Col>
+                <Row style={{ marginTop: "20px" }}>
+                  <Col>
+                    <span className="JobLink-boc-colDetails">Internship</span>
+                  </Col>
+                  <Col>
+                    <span className="JobLink-boc-colDetails">2 Months</span>
+                  </Col>
+                  <Col>
+                    <span className="JobLink-boc-colDetails">Remote</span>
+                  </Col>
                 </Row>
                 <p className="JobLink-box-content">
                   We value great design and prioritize it across every single
