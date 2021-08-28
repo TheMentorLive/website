@@ -12,7 +12,7 @@ const NavbarTop = () => {
           <Nav className="text-xl-center nav-item-custom">
             <Link to="/" className="nav-link">Home</Link>
             <Link to="/" className="nav-link">My Account</Link>
-            <Link to="/" className="nav-link">Profile Builder</Link>
+            <Link to="/profile" className="nav-link">Profile Builder</Link>
             <Link to="/" className="nav-link">Career</Link>
             <Link to="/" className="nav-link">Placement</Link>
             <Link to="/" className="nav-link">Skill</Link>
