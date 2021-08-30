@@ -4,32 +4,13 @@ import { Link } from "react-router-dom";
 const JobsLink = () => {
   return (
     <div>
-      <Container className="text-md-center" style={{ marginTop: "100px" }}>
+      <Container className="text-md-center" style={{ marginTop: "100px",marginBottom:'80px' }}>
         <span className="JobLink-heading">Job Links</span> <br />
         <span className="JobLink-heading-desc">
           Choose from 50+ customizable resume templates that are built to meet
           your career needs.
         </span>
         <br />
-        {/* <div className="searchbar-joblink">
-          <form class="form-inline">
-            <Row>
-              <Col>
-                <input
-                  class="form-control joblink-input"
-                  type="search"
-                  placeholder="Search"
-                  aria-label="Search"
-                />
-              </Col>
-              <Col>
-                <button class="btn btn-outline-primary" type="submit">
-                  Search
-                </button>
-              </Col>
-            </Row>
-          </form>
-        </div> */}
         <div className="JobLink-outterbox">
           <Row md={2}>
             <Col>
@@ -163,7 +144,7 @@ const JobsLink = () => {
             </Col>
           </Row>
         </div>
-        <Link className="JobLink-Link">See all job appliaction</Link>
+        <Link className="JobLink-Link">See all job application</Link>
       </Container>
     </div>
   );

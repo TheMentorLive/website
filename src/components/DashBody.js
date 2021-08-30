@@ -1,6 +1,7 @@
 import { Col, Container, Row } from "react-bootstrap";
 import { AiFillCheckCircle, AiFillCloseCircle } from "react-icons/ai";
 import DashProfile from "./DashProfile";
+import MyOrders from "./MyOrders";
 
 const Dashboard = () => {
   return (
@@ -12,7 +13,7 @@ const Dashboard = () => {
       </div>
       <div className="section-back-color">
         <div className="section-heading">Dashboard</div>
-        <Row>
+        <Row md={4}>
           <Col>
             <div className="section-block">
               <Row md={2}>
@@ -88,6 +89,7 @@ const Dashboard = () => {
           </Col>
         </Row>
         <DashProfile/>
+        <MyOrders/>
       </div>
     </Container>
   );

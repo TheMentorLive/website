@@ -121,7 +121,7 @@
   line-height: 30px;
   color: #31235c;
 }
-.section-back-card1-subheading img{
+.section-back-card1-subheading img {
   height: 22px;
   width: 22px;
 }
@@ -218,4 +218,93 @@
   background: #ffc145;
   font-size: 14x;
   border-radius: 13.617px;
+}
+
+/* ****** My Orders ******** */
+.order-container {
+  background: #ffffff;
+  box-shadow: 0px 14px 40px rgba(44, 12, 115, 0.15);
+  border-radius: 20px;
+  padding: 25px;
+}
+.order-heading {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  color: #31235c;
+}
+.order-details-row {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+}
+.order-details-row span {
+  padding: 10px;
+}
+.order-details-row #order-id {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 10px;
+  padding: 15px 2px;
+  background: #e7e0ff;
+  color: #31235c;
+  border-radius: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.order-details-row #order-date {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 12px;
+  color: #9894a7;
+  padding: 20px;
+}
+.order-details-view {
+  display: flex;
+  flex-direction: row;
+  padding-top: 20px;
+}
+.order-format-col {
+  display: flex;
+  flex-direction: column;
+  padding-left: 15px;
+}
+.order-format-col span {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 19px;
+  color: #31235c;
+  padding: 5px;
+}
+.order-format-col .order-format-btn {
+  padding: 20px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 16px;
+  text-align: center;
+  text-decoration-line: underline;
+  color: #31235c;
+  border: none;
+  background: #fff;
+}
+.order-format-col .order-format-btn-outline {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 16px;
+  text-align: center;
+  color: #31235c;
+  background: #fff;
+  padding: 15px 10px;
+  border-radius: 18px;
 }

@@ -7,12 +7,14 @@ import Services from "../components/OurServices"
 import SuccessStories from "../components/SuccessStories";
 import Subscription from "../components/Subscription";
 import Footer from "../components/HomeFooter";
+import NavbarTop from "../components/Navbar";
 
 
 
 const MainScreen = () =>{
     return(
         <div>   
+            <NavbarTop/>
             <Landing/>
             <Services/>
             <Process/>
