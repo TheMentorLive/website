@@ -1,4 +1,6 @@
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import AllJobs from './components/AllJobLinks';
+import AllTemplates from './components/AllTemplates';
 import DashBoard from './screen/DashBoard';
 import MainScreen from "./screen/MainScreen"
 import ResumeBuilder from './screen/ResumeBuilder';
@@ -16,6 +18,12 @@ const MainComponent = () =>{
                     </Route>
                     <Route exact path="/profile">
                         <ResumeBuilder/>
+                    </Route>
+                    <Route exact path="/templates">
+                        <AllTemplates/>
+                    </Route>
+                    <Route exact path="/jobs">
+                        <AllJobs/>
                     </Route>
                 </Switch>
             </Router>

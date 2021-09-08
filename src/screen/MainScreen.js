@@ -8,6 +8,7 @@ import SuccessStories from "../components/SuccessStories";
 import Subscription from "../components/Subscription";
 import Footer from "../components/HomeFooter";
 import NavbarTop from "../components/Navbar";
+import MainFooter from "../components/Footer";
 
 
 
@@ -23,6 +24,7 @@ const MainScreen = () =>{
             <SuccessStories/>
             <Subscription/>
             <Footer/>
+            <MainFooter/>
         </div>
     );
 }

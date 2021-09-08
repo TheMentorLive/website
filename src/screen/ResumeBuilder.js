@@ -1,7 +1,9 @@
+import MainFooter from "../components/Footer";
 import JobsLink from "../components/JbLink";
 import NavbarTop from "../components/Navbar";
+import PlacementTest from "../components/PlacementTest";
 import ProfileBuilder from "../components/ProfileBuilder";
-import ProfileFooter from "../components/ProfileFooter";
+// import ProfileFooter from "../components/ProfileFooter";
 import Templates from "../components/Templates";
 import "../style/ResumeBuilder.css";
 
@@ -12,7 +14,9 @@ const ResumeBuilder = () => {
       <ProfileBuilder/>
       <Templates/>
       <JobsLink />
-      <ProfileFooter/>
+      <PlacementTest/>
+      {/* <ProfileFooter/> */}
+      <MainFooter/>
     </div>
   );
 };

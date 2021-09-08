@@ -6,7 +6,7 @@ const NavbarTop = () => {
     <>
       <Navbar className="navbar-custom" fixed="top">
         <Container>
-          <Navbar.Brand href="#home">
+          <Navbar.Brand href="/">
               <img src="/images/logo-white.png" alt="logo-bg-white" className="img-navbar-logo" />
           </Navbar.Brand>
           <Nav className="text-xl-center nav-item-custom">
