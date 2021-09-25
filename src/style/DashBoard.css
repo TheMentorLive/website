@@ -4,7 +4,7 @@
 .section-heyuser {
   width: 111px;
   height: 29px;
-  margin-top: 50px;
+  margin-top: 25px;
   font-family: Lato;
   font-style: normal;
   font-weight: bold;
@@ -13,9 +13,7 @@
   color: #31235c;
 }
 .section-2ndline {
-  width: 453px;
-  height: 17px;
-  margin-top: 25px;
+  margin-top: 10px;
   font-family: Lato;
   font-style: normal;
   font-weight: bold;
@@ -85,7 +83,7 @@
 }
 
 .section-back-card1 {
-  width: 578px;
+  width: 600px;
   margin-top: 30px;
   background: #ffffff;
   box-shadow: 0px 14px 40px rgba(44, 12, 115, 0.15);
@@ -95,7 +93,7 @@
 
 .section-back-card2 {
   margin-top: 30px;
-  width: 314.02px;
+  width: 330px;
   background: #ffffff;
   box-shadow: 0px 14px 40px rgba(44, 12, 115, 0.15);
   border-radius: 20px;
@@ -109,7 +107,7 @@
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
-  line-height: 22px;
+  line-height: 22px;  
   color: #31235c;
 }
 
@@ -142,6 +140,15 @@
 .section-card1-button:hover {
   color: #fff;
   text-decoration: none;
+}
+
+.profile-update-head{
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  color: #31235C;
 }
 
 /* ********* SIDEBAR ********** */
@@ -307,4 +314,71 @@
   background: #fff;
   padding: 15px 10px;
   border-radius: 18px;
+}
+
+/***** DashBorad search Bar *****/
+.searchInputs{
+  display: flex;
+}
+
+.search input    {
+  background-color: transparent;
+  border: 0;
+  border-radius: 2px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  font-size: 18px;
+  padding: 15px;
+  height: 30px;
+  width: 300px;
+}
+
+.searchIcon{
+  height: 60px;
+  width: 50px;
+  background-color: transparent;
+  display: grid;
+  place-items: center;
+}
+
+input:focus{
+  outline: none;
+}
+
+.searchIcon svg{
+  font-size: 35px;
+}
+
+.dataResult{
+  margin-top: 5px;
+  width: 300px;
+  height: 50px;
+  background-color: transparent;
+  /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+  overflow: hidden;
+  overflow-y: auto;
+}
+
+.dataResult::-webkit-scrollbar{
+  display: none;
+}
+.dataResult .dataItem {
+  width: 100px;
+  height: 50px;
+  align-items: center;
+  color: black;
+}
+
+.dataItem p {
+  margin-left: 10px;
+}
+a{
+  text-decoration: none;
+}
+a:hover{
+  background-color: lightgrey;
+}
+
+#clearBtn{
+  cursor: pointer;
 }

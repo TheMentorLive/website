@@ -2,16 +2,18 @@ import { Col, Container, Row } from "react-bootstrap";
 import { AiFillCheckCircle, AiFillCloseCircle } from "react-icons/ai";
 import DashProfile from "./DashProfile";
 import MyOrders from "./MyOrders";
+import DashSearch from "./DashSearch";
+import { LINKSOF } from "../Assests/LinksOfPage";
 
 const Dashboard = () => {
   return (
     <Container>
       <div className="section-heyuser">Hi, User!</div>
       <div className="section-2ndline">
-        Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
-        sint.
+        Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
       </div>
       <div className="section-back-color">
+        <DashSearch placeholder="⌕ Search" data={LINKSOF} />
         <div className="section-heading">Dashboard</div>
         <Row md={4}>
           <Col>
