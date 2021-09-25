@@ -18,8 +18,8 @@ const NavbarTop = () => {
             <Link to="/" className="nav-link">Skill</Link>
           </Nav>
           <Nav className="text-sm-right">
-            <Link to="/" className="sign-in-option">Sign In</Link>
-            <Link to="/" className="register-option">Register</Link>
+            <Link to="/login" className="sign-in-option">Sign In</Link>
+            <Link to="/signup" className="register-option">Register</Link>
           </Nav>
         </Container>
       </Navbar>

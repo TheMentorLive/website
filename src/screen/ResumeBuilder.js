@@ -3,8 +3,7 @@ import JobsLink from "../components/JbLink";
 import NavbarTop from "../components/Navbar";
 import PlacementTest from "../components/PlacementTest";
 import ProfileBuilder from "../components/ProfileBuilder";
-// import ProfileFooter from "../components/ProfileFooter";
-import Templates from "../components/Templates";
+import TemplateDesign from "../components/TemplateDesign";
 import "../style/ResumeBuilder.css";
 
 const ResumeBuilder = () => {
@@ -12,10 +11,9 @@ const ResumeBuilder = () => {
     <div>
       <NavbarTop/>
       <ProfileBuilder/>
-      <Templates/>
+      <TemplateDesign/>
       <JobsLink />
       <PlacementTest/>
-      {/* <ProfileFooter/> */}
       <MainFooter/>
     </div>
   );

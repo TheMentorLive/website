@@ -5,7 +5,7 @@ import { FaTwitter, FaLinkedinIn, FaInstagram } from "react-icons/fa";
 const MainFooter = () => {
   return (
     <Container className="footer-container-main">
-      <Row >
+      <Row md={4}>
         <Col>
           <div className="footer-logo">
             <img src="/images/logo-white.png" alt="logo" />

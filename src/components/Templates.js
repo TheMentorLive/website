@@ -10,7 +10,6 @@ const Templates = () => {
 
   return (
     <Container
-      style={{ marginTop: "120px", marginBottom: "150px" }}
       className="text-md-center"
     >
       <Modal
@@ -22,14 +21,7 @@ const Templates = () => {
           <img src="/images/resume-template.png" alt="preview" />
         </Modal.Body>
       </Modal>
-
-      <div className="template-top">
-        <h3>Professionally Designed Templates</h3>
-        <span>
-          Choose from 50+ customizable resume templates that are built to meet
-          your career needs.
-        </span>
-      </div>
+      
       <Row md={3} style={{ marginTop: "60px", marginLeft: "30px" }}>
         <Col>
           <div className="template-card">
