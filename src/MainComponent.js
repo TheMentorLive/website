@@ -3,6 +3,7 @@ import MainFooter from './Components/Footer';
 import NavbarTop from './Components/NavBar';
 import MainScreen from './Screens/MainScreen';
 import ProfileBuilder from './Screens/ProfileBuilder';
+import MentorProgram from './Screens/MentorProgram';
 
 const MainComponent = () =>{
     return(
@@ -15,6 +16,9 @@ const MainComponent = () =>{
                     </Route>
                     <Route exact path="/profile">
                         <ProfileBuilder/>
+                    </Route>
+                    <Route exact path="/mentor-program">
+                        <MentorProgram/>
                     </Route>
                 </Switch>
                 <MainFooter/>

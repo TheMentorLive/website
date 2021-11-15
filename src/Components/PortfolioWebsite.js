@@ -1,7 +1,7 @@
 import { Container, Row, Col } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
-const ResumeBuilding = () => {
+const PortfolioWebsite = () => {
   return (
     <Container style={{marginTop:'150px',marginBottom:'70px'}}>
       <div className="section3-heading">
@@ -38,11 +38,11 @@ const ResumeBuilding = () => {
           </Row>
         </Col>
         <Col>
-          <div className="section3-resume-img"></div>
+          <div className="section5-resume-img"></div>
         </Col>
       </Row>
     </Container>
   );
 };
 
-export default ResumeBuilding;
+export default PortfolioWebsite;

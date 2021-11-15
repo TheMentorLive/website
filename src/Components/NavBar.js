@@ -25,19 +25,13 @@ const NavbarTop = () => {
                 Home
               </Link>
               <Link to="/" className="nav-link">
-                My Account
+                Career Builder
               </Link>
               <Link to="/profile" className="nav-link">
                 Profile Builder
               </Link>
-              <Link to="/" className="nav-link">
-                Career
-              </Link>
-              <Link to="/" className="nav-link">
-                Placement
-              </Link>
-              <Link to="/" className="nav-link">
-                Skill
+              <Link to="/mentor-program" className="nav-link">
+                Mentor Program
               </Link>
             </Nav>
             <Nav>

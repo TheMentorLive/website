@@ -51,7 +51,7 @@
   background: #ffffff;
   box-shadow: 0px -2px 200px rgba(44, 12, 115, 0.2);
   border-radius: 30px;
-  width: 320px;
+  /* width: 320px; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -89,6 +89,12 @@
   border-radius: 15px;
 }
 
+@media screen and (max-width: 720px) {
+  .pbcards-container {
+    overflow: hidden;
+  }
+}
+
 /* Resume Building */
 
 .section3-resume {
@@ -99,6 +105,7 @@
   color: #7a4ae1;
 }
 .section3-resume-img {
+  margin-right: -20px;
   height: 570px;
   background: url(../Assests/ResumeBuilding.png) no-repeat;
 }
@@ -128,6 +135,45 @@
 
 @media screen and (max-width: 720px) {
   .section3-resume-img {
+    height: 400px;
+    width: 300px;
+    overflow: hidden;
+    margin-top: 30px;
+  }
+}
+
+/* Linkedin Profile Building */
+
+.section4-resume-img {
+  margin-right: -20px;
+  height: 450px;
+  width: 100%;
+  background: url(../Assests/linkedin-profile.png) no-repeat;
+}
+
+@media screen and (max-width: 720px) {
+  .section4-resume-img {
+    height: 400px;
+    width: 300px;
+    overflow: hidden;
+    margin-top: 30px;
+  }
+}
+.section6-right-sub2 {
+  color: #2e2455;
+}
+.section6-right-sub2 span {
+  color: #7a4ae1;
+}
+
+.section5-resume-img {
+  height: 400px;
+  width: 100%;
+  background: url(../Assests/portfolio.png) no-repeat;
+}
+@media screen and (max-width: 720px) {
+  .section5-resume-img {
+    height: 400px;
     width: 300px;
     overflow: hidden;
     margin-top: 30px;
