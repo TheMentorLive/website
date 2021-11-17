@@ -35,7 +35,7 @@ const Linkedin = () => {
               </Link>
             </Col>
             <Col>
-              <Link href="#home" className="button-landing-right">
+              <Link to="/linkedin" className="button-landing-right">
                 Read More
               </Link>
             </Col>

@@ -1,0 +1,49 @@
+.linkedin-profile h2 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 72px;
+  line-height: 88px;
+  text-align: center;
+  font-feature-settings: "case" on;
+  color: #2e2455;
+}
+.linkedin-profile span {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.2px;
+  color: #2e2455;
+}
+
+.linkedin-profile img {
+  height: 400px;
+  margin-top: 50px;
+  width: 700px;
+  margin-bottom: 50px;
+}
+.linkedin-theory h2 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 44px;
+  line-height: 54px;
+  text-align: center;
+  font-feature-settings: "case" on;
+  color: #2e2455;
+}
+.linkedin-theory h2 span {
+  color: #7a4ae1;
+}
+
+.linkedin-theory .subhead {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+  color: #898989;
+}

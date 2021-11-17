@@ -24,7 +24,7 @@ const NavbarTop = () => {
               <Link to="/" className="nav-link">
                 Home
               </Link>
-              <Link to="/" className="nav-link">
+              <Link to="/career" className="nav-link">
                 Career Builder
               </Link>
               <Link to="/profile" className="nav-link">
